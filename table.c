@@ -2,10 +2,12 @@
 
 int main()
 {
-          int n, i;
+          int n,i,y;
           printf("Enter your number\n");
           scanf("%d", &n);
-          for (i = 1; i <= 10; i++)
+          printf("How many times you need your table\n");
+          scanf("%d",&y);
+          for (i = 1; i <= y; i++)
           {
                     printf(" %d * %d = %d\n", n, i, n * i);
           }
